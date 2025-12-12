@@ -684,11 +684,10 @@ O sistema legado usa **Map** para armazenamento em memória:
 
 ## 👨‍💻 Autor
 
-**[Seu Nome Completo]**  
-**Matrícula:** [Sua Matrícula]  
-**Curso:** [Seu Curso]  
+**Fernão Queiroz Ferreira**  
+**Matrícula:** 20231002802947  
+**Curso:** Ciência da Computação 
 **Disciplina:** Sistemas Distribuídos  
-**Professor:** [Nome do Professor]
 
 ## 📄 Licença
 
