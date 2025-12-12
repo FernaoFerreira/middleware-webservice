@@ -150,7 +150,12 @@ router.get('/clientes/:id', async (req, res) => {
     // Converte resposta XML para JSON
     const respostaJson = await xmlToJson(legacyResponse.data);
 
-    if (respostaJson.resposta.status === 'NOT_FOUND') {
+    console.log('📥 Resposta do legado:', JSON.stringify(respostaJson, null, 2));
+
+    // Verifica o status da resposta
+    const status = respostaJson.resposta.status;
+    
+    if (status === 'NOT_FOUND' || !respostaJson.resposta.dados) {
       return res.status(404).json({
         success: false,
         message: 'Cliente não encontrado'
