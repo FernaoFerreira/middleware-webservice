@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requisicao>
+  <tipo>CADASTRO_CLIENTE</tipo>
+  <timestamp>2025-01-15T10:30:00.000Z</timestamp>
+  <dados>
+    <cliente>
+      <id>a1b2c3d4-e5f6-7890-abcd-ef1234567890</id>
+      <nome>João Silva</nome>
+      <email>joao.silva@email.com</email>
+      <cpf_criptografado>3f8a9b2c4d5e6f1a2b3c4d5e:9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d</cpf_criptografado>
+      <dataCadastro>2025-01-15T10:30:00.000Z</dataCadastro>
+    </cliente>
+  </dados>
+</requisicao>

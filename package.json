@@ -1,0 +1,32 @@
+{
+  "name": "middleware-webservice",
+  "version": "1.0.0",
+  "description": "Middleware Web Service para integração com sistema legado via XML",
+  "main": "src/middleware/server.js",
+  "scripts": {
+    "start": "node src/middleware/server.js",
+    "start:legacy": "node src/legacy/legacySystem.js",
+    "dev": "concurrently \"npm run start\" \"npm run start:legacy\"",
+    "test": "echo \"No tests configured yet\""
+  },
+  "keywords": [
+    "middleware",
+    "webservice",
+    "xml",
+    "rest",
+    "criptografia"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "xml2js": "^0.6.2",
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.1",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.2"
+  }
+}

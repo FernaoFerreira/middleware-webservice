@@ -1,0 +1,11 @@
+# Ignora arquivos .log
+*.log
+
+# Ignora a pasta node_modules
+node_modules/
+
+# Ignora arquivos .env
+.env
+
+# Ignora arquivos temporários do VS Code
+.vscode/
